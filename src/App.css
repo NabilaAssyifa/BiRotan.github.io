@@ -1,0 +1,156 @@
+/* Add your custom styles here */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.button-add {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-add:hover {
+  background-color: #45a049;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding-top: 20px;
+  transition: transform 0.3s ease;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar .sidebar-header {
+  padding: 10px;
+  background-color: #444;
+  text-align: center;
+}
+
+.sidebar .sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar .sidebar-menu li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebar .sidebar-menu li:hover {
+  background-color: #555;
+}
+
+.main-content {
+  margin-left: 200px;
+  padding: 20px;
+}
+
+.user-container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+  margin-bottom: 10px;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #f1f1f1;
+}
+
+th {
+  background-color: #000000;
+  text-align: left;
+}
+
+td {
+  text-align: left;
+}
+
+table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.history-container {
+  margin-top: 20px;
+}
+
+.history-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.history-container th, .history-container td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.history-container th {
+  background-color: #f4f4f4;
+  text-align: left;
+}
+
+.history-container td {
+  text-align: left;
+}
+
+.history-container table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.sidebar-toggle {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sidebar-toggle:hover {
+  background-color: #444;
+}

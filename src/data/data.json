@@ -1,0 +1,60 @@
+{
+  "players": [
+    {
+      "id":1,
+      "username": "user",
+      "password": "user",
+      "role": "user"
+    },
+    {
+      "id":2,
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id":3,
+      "username": "gudang",
+      "password": "gudang",
+      "role": "gudang"
+    },
+    {
+      "id":4,
+      "username": "supplier",
+      "password": "supplier",
+      "role": "supplier"
+    },
+    {
+      "id":5,
+      "username": "kasir",
+      "password": "kasir",
+      "role": "kasir"
+    }
+  ],
+  "gudang": [
+    {
+      "id": 1,
+      "name": "Bracelet Love",
+      "quantity": 10,
+      "image": "https://i.pinimg.com/736x/84/b0/68/84b0683838c7b19235e5572c8916b97f.jpg",
+      "category":"Bracelet "
+    },
+    {
+      "id": 2,
+      "name": "Necklace Star",
+      "quantity": 5,
+      "image": "https://i.pinimg.com/736x/c0/a9/54/c0a9544c4ddfda060aa86fbfd0ce1077.jpg",
+      "category":"Necklace "
+    },
+    {
+      "id": 3,
+      "name": "Ring Diamond",
+      "quantity": 20,
+      "image": "https://i.pinimg.com/736x/71/1d/a6/711da6afa227a9a19a1030b847eed78e.jpg",
+      "category":"Ring"
+    }
+  ],
+  "transaksi": [
+    
+  ]
+}
